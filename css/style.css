@@ -60,7 +60,6 @@ body#about {
 }
 
 body#menu {
-    background-image: url('../images/drink-8.jpg');
     background-color: #cccccc;
     height: 100%;
     background-position: center;
@@ -2291,7 +2290,7 @@ body {
 }
 
 .contain__image {
-    width: 100%;
+    width: 400px;
     margin: 30px 30px 30px 0;
     float: left;
 }
@@ -2384,4 +2383,10 @@ main.grid {
 .btn-warning {
     background-color: transparent;
     border-color: #bdc3c7;
+}
+
+.colorlib-menu {
+    background-image: url('..images/drink-8.jpg');
+    background-position: center center;
+    background-attachment: fixed;
 }
